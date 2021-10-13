@@ -13,7 +13,7 @@ namespace RestDevOps.Managers.Tests
 	public class GameManagerTests
 	{
 		private GameManager _manager = new GameManager();
-		private Game newGame = new Game() {Name = "Far Cry 6", Publisher = "Ubisoft", Price = 450};
+		//private Game newGame = new Game() {Name = "Far Cry 6", Publisher = "Ubisoft", Price = 450};
 		[TestMethod()]
 		public void GetAllTest()
 		{
