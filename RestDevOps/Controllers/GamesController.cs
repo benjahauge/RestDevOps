@@ -14,6 +14,7 @@ namespace RestDevOps.Controllers
 	[ApiController]
 	public class GamesController : ControllerBase
 	{
+		//Kommentar
 		private readonly GameManager _manager = new GameManager();
 
 		// GET: api/<GamesController>
